@@ -1,0 +1,31 @@
+{
+  "name": "tape-promised",
+  "version": "1.0.0",
+  "description": "Promise wrapper around tape",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "eslint ."
+  },
+  "keywords": [
+    "tape",
+    "promise",
+    "async",
+    "await"
+  ],
+  "files": [
+    "index.js",
+    "lib.js"
+  ],
+  "author": "Dmitry Tyschenko",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "tape": "^4.6.2"
+  },
+  "peerDependencies": {
+    "tape": "*"
+  },
+  "repository": "github:rainydio/tape-promised.git",
+  "bugs": "https://github.com/rainydio/tape-promised/issues",
+  "homepage": "https://github.com/rainydio/tape-promised#readme"
+}
